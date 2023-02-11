@@ -7,8 +7,8 @@ DECLARE @kill VARCHAR(8000) = '';
 
 SELECT @kill = 'kill ' + CONVERT(varchar(5), session_id)
 FROM sys.dm_exec_sessions
-WHERE database_id = DB_ID(@database)
+WHERE database_id = DB_ID(@database);
 
 EXEC(@kill);
 
-EXEC sp_executesql @sql
+EXEC sp_executesql @sql;
