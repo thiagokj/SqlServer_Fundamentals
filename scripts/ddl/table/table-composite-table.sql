@@ -6,7 +6,7 @@
     As colunas que compõem a chave são automaticamente definidas
     como UNIQUE e NOT NULL.
 
-    Curiosidade: "N" significa um número indeterminado. 
+    Curiosidade: "N" significa um número indeterminado.
 
     FOREIGN KEY | Cria uma referência para associar os Id's 
     nos relacionamentos.

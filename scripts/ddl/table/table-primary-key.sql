@@ -1,14 +1,17 @@
 /*
     PRIMARY KEY | Chave de identificação única na tabela.
-    Utilizando essa instrução na coluna, são atribuídas
+    Utilizando essa instrução na coluna, são atribuídas implicitamente
     as CONSTRAINTS UNIQUE e NOT NULL.
+
+    Por boas práticas e automatização de alguns frameworks,
+    é interessante declarar a CONSTRAINT NOT NULL.
 */
 
 USE [Curso];
 
 DROP TABLE [Aluno];
 CREATE TABLE [Aluno](
-    [Id] INT CONSTRAINT [PK_Aluno] PRIMARY KEY,
+    [Id] INT CONSTRAINT [PK_Aluno] PRIMARY KEY NOT NULL,
     [Nome] NVARCHAR(80) NOT NULL,
     [Email] NVARCHAR(80),
     [Nascimento] DATETIME NULL,
