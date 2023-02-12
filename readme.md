@@ -1,4 +1,4 @@
-# Docker - SQL SERVER Local
+# Scripts SQL com Docker e SQL SERVER
 
 Projeto para estudo e revisão de conceitos com SQL SERVER.
 
