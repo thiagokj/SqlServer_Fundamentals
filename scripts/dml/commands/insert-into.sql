@@ -15,13 +15,3 @@ INSERT INTO [Curso]([Nome], [IdCategoria]) VALUES('Fundamentos de POO', 1);
 INSERT INTO [Curso] VALUES('Angular', 2);
 INSERT INTO [Curso] VALUES('Flutter', 3);
 INSERT INTO [Curso] VALUES('React', 3);
-
-
-
-
-
-
-
-
-
-
