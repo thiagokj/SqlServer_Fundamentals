@@ -1,20 +1,28 @@
 /*
-    WHERE | Filtro para especificar o retorno.
+    WHERE | Condição para especificar o retorno.
+
+    OR, AND, LIKE | Instruções de comparação normalmente usadas após o Where.
+
     ORDER BY | Ordenação ascendente (ASC) implitica e
     ordenação descendente (DESC)
+
     
     Ex: SELECT Column1, Column2 
         FROM Table 
         WHERE Column = Condition
         ORDER BY Column DESC
 */
-USE[CursoTeste];
+USE [CursoTeste];
 
 SELECT 
     [Id],
     [Nome],
     [IdCategoria]
-    FROM [Curso] 
-    WHERE [IdCategoria] = 1
-    ORDER BY [Nome] DESC;
+FROM 
+    [Curso] 
+WHERE 
+    [IdCategoria] = 3 OR
+    [Id] = 3
+ORDER BY
+    [Nome] DESC;
     

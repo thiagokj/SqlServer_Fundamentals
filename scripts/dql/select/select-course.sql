@@ -2,6 +2,7 @@
     Para realizar as consultas (querys), utilizamos a instrução SELECT.
     SELECT | Selecione os campos.
     * | O asterísco é utilizado como coringa, retornando todos os campos.
+    O * prejudica a performance, não sendo recomendado.
     FROM | Tabelas ou esquemas com os dados a serem selecionados.
 
     Ex1: SELECT Column1, Column2 FROM Table 
@@ -13,6 +14,6 @@ SELECT
     [Id],
     [Nome],
     [IdCategoria]
-    FROM Curso;
+FROM Curso;
 
     
